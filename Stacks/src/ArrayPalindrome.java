@@ -16,7 +16,7 @@ public class ArrayPalindrome {
 
 	public boolean isPalindrome(String match) {
 		
-		
+		String output = match;
 		match = match.toLowerCase();
 		match = match.replaceAll("\\P{L}", " ");
 		match = match.replace(" " , "");
@@ -41,7 +41,7 @@ public class ArrayPalindrome {
 
 			if (look != secondLook) {
 
-				System.out.println( match + ": " + "This is not a palindrome ");
+				System.out.println( output + ": " + "This is not a palindrome ");
 				return false;
 
 			}
@@ -49,7 +49,7 @@ public class ArrayPalindrome {
 			three.pop();
 
 		}
-		System.out.println( match + ": " + " This is a palindrome");
+		System.out.println( output + ": " + " This is a palindrome");
 		return true;
 	}
 
