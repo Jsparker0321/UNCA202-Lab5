@@ -10,8 +10,10 @@ public class PalindromeTest {
 		test.isPalindrome("mom");
 		test.isPalindrome("bible");
 		test.isPalindrome("dad");
-		test.isPalindrome("Eva can I stab bats in a cave");
-		test.isPalindrome("atinmugforajarofgumnita");
+		test.isPalindrome("Eva, can I stab bats in a cave?");
+		test.isPalindrome("was it a rat i saw?");
+		test.isPalindrome("Dammit, I'm mad!");
+		test.isPalindrome("Never Odd or Even");
 		test.isPalindrome("welcome");
 		test.isPalindrome("book");
 		
