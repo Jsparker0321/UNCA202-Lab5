@@ -1,16 +1,16 @@
 import java.util.Stack;
 
-public class ArrayPalindrome {
+public class ArrayPalindrome<E> {
 
-	Stack<Character> one;
-	Stack<Character> two;
-	Stack<Character> three;
+	ArrayStack<Character> one;
+	ArrayStack<Character> two;
+	ArrayStack<Character> three;
 
 	public ArrayPalindrome() {
 
-		one = new Stack<>();
-		two = new Stack<>();
-		three = new Stack<>();
+		one = new ArrayStack<>();
+		two = new ArrayStack<>();
+		three = new ArrayStack<>();
 
 	}
 
