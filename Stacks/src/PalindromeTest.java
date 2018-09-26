@@ -14,7 +14,7 @@ public class PalindromeTest {
 		test.isPalindrome("was it a rat i saw?");
 		test.isPalindrome("Dammit, I'm mad!");
 		test.isPalindrome("Never Odd or Even");
-		test.isPalindrome("welcome");
+		test.isPalindrome("Welcome!");
 		test.isPalindrome("book");
 		
 		
